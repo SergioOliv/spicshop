@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en-">
+<head>
+	<title>La Casa - Real Estate HTML5 Home Page Template</title>
+	<meta charset="utf-8">
+	<meta name="author" content="pixelhint.com">
+	<meta name="description" content="La casa free real state fully responsive html5/css3 home page website template"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+	<section class="hero">
+		<header>
+			<div class="wrapper">
+				<a href="#"><img src="img/logo.png" class="logo" alt="" titl=""/></a>
+				<a href="#" class="hamburger"></a>
+				<nav>
+					<ul>
+						<!-- <li><a href="#">Buy</a></li>
+						<li><a href="#">Rent</a></li>
+						<li><a href="#">Sell</a></li>
+						<li><a href="#">About</a></li> -->
+						<li><a href="#1234">Специи Полоцк</a></li>
+					</ul>
+					<!-- <a href="#" class="login_btn">Login</a> -->
+				</nav>
+			</div>
+		</header><!--  end header section  -->
+
+			<section class="caption">
+				<h2 class="caption">Создай свой вкус</h2>
+				<h3 class="properties">Магазин специй в Полоцке</h3>
+			</section>
+	</section><!--  end hero section  -->
+
+
+	<section class="search">
+		<div class="wrapper">
+			<form action="#" method="post">
+				<input type="text" id="search" name="search" placeholder="Каталог товаров"  autocomplete="off"/>
+				<input type="submit" id="submit_search" name="submit_search"/>
+			</form>
+			<a href="#" class="advanced_search_icon" id="advanced_search_btn"></a>
+		</div>
+
+		<div class="advanced_search">
+			<div class="wrapper">
+				<span class="arrow"></span>
+				<form action="#" method="post">
+					<div class="search_fields">
+						<input type="text" class="float" id="check_in_date" name="check_in_date" placeholder="Check In Date"  autocomplete="off">
+
+						<hr class="field_sep float"/>
+
+						<input type="text" class="float" id="check_out_date" name="check_out_date" placeholder="Check Out Date"  autocomplete="off">
+					</div>
+					<div class="search_fields">
+						<input type="text" class="float" id="min_price" name="min_price" placeholder="Min. Price"  autocomplete="off">
+
+						<hr class="field_sep float"/>
+
+						<input type="text" class="float" id="max_price" name="max_price" placeholder="Max. price"  autocomplete="off">
+					</div>
+					<input type="text" id="keywords" name="keywords" placeholder="Keywords"  autocomplete="off">
+					<input type="submit" id="submit_search" name="submit_search"/>
+				</form>
+			</div>
+		</div><!--  end advanced search section  -->
+	</section><!--  end search section  -->
+
+
+	<section class="listings">
+		<div class="wrapper">
+			<ul class="properties_list">
+				<li>
+					<a href="#">
+						<img src="img/Перец-черный-крупный.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Перец черный крупный
+							<br>
+							Вьетнам</a>
+						</h1>
+						<h2>3.15 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/зира-кумин-молотая-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Зира (кумин) молотая
+							<br>
+							Индия</a>
+						</h1>
+						<h2>1.95 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/морковь-сушеная-россия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Морковь сушенная
+							<br>
+							Россия</a>
+						</h1>
+						<h2>1.80 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/перец-черный-горошек.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Перец черный горошек
+                <br>
+                Вьетнам</a>
+						</h1>
+						<h2>2.75 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/лук-порей-китай.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Лук - порей
+							<br>
+							Китай</a>
+						</h1>
+						<h2>2.50 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/чеснок-гранулы-плкитай.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Чеснок (гранулы 3*3)
+							<br>
+							Китай</a>
+						</h1>
+						<h2>1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/сельдерей-корень-россия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Сельдерей корень
+							<br>
+							Россия</a>
+						</h1>
+						<h2> 1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/гвоздика-целая-индонезия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Гвоздика целая премиум
+							<br>
+							Индонезия</a>
+						</h1>
+						<h2>4.85 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/перец-розовый-горошек.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Перец розовый горошек
+							<br>
+							Бразилия</a>
+						</h1>
+						<h2>3.15 руб./20г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/кунжут-черный-египет.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Кунжут черный
+							<br>
+							Египет</a>
+						</h1>
+						<h2>2.60 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/базилик-египет.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Базилик
+							<br>
+							Египет</a>
+						</h1>
+						<h2>1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/розмарин-россия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Розмарин
+							<br>
+							Россия</a>
+						</h1>
+						<h2>1.70 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/укроп-зелень-египет.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Укроп зелень
+							<br>
+							Египет</a>
+						</h1>
+						<h2>1.55 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/сельдерей-корень-россия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Укроп семена
+							<br>
+							Египет</a>
+						</h1>
+						<h2> 1.40 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/можжевельник-македония.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Можжевельник
+							<br>
+							Македония</a>
+						</h1>
+						<h2>3.15 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/эстагон-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Эстрагон
+							<br>
+							Индия</a>
+						</h1>
+						<h2> 2.75 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/мускатный-орех-молотый-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Мускатный орех молотый
+							<br>
+							Индонезия</a>
+						</h1>
+						<h2>2.95 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/карри-острая.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Карри острая
+							<br>
+							Россия</a>
+						</h1>
+						<h2>1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/анис-семена-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Анис (семена)
+							<br>
+							Индия</a>
+						</h1>
+						<h2>2.20 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/орегано-турция.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Орегано
+							<br>
+							Турция</a>
+						</h1>
+						<h2> 2.00 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/перец-белый-горошек-вьетнам.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Перец белый горошек
+							<br>
+							Вьетнам</a>
+						</h1>
+						<h2>5.65 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/имбирь-молотый-гранулы-нигерия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Имбирь молотый (гранулы 3*3)
+							<br>
+							Нигерия</a>
+						</h1>
+						<h2>1.85 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/чеснок-гранулы-китай.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Чеснок (гранулы)
+							<br>
+							Китай</a>
+						</h1>
+						<h2>1.95 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/лавровый-лист-узбекия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Лавровый лист
+							<br>
+							Узбекистан</a>
+						</h1>
+						<h2> 1.30 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/набор-для-шашлыка.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Набор из 8 специй для шашлыка
+
+							</a>
+						</h1>
+						<h2>1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/перец-чили-молотый.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Перец чили молотый
+							<br>
+							Вьетнам</a>
+						</h1>
+						<h2>1.80 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/фенхель-семя-египет.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Фенхель семя
+							<br>
+							Египет</a>
+						</h1>
+						<h2>  1.75 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/парика-сладкая-молотая-китай.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Паприка сладкая молотая
+							<br>
+							Китай</a>
+						</h1>
+						<h2>1.80 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/корица-палочки-индонезия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Корица палочки
+							<br>
+							Индонезия</a>
+						</h1>
+						<h2>4.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/горчица-черная-франция.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Горчица черная семена
+							<br>
+							Франция</a>
+						</h1>
+						<h2> 1.60 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/перец-дишистый-горошек-мексика.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Перец душистый горошек
+							<br>
+							Мексика</a>
+						</h1>
+						<h2> 2.85 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/набор-для-курицы-узбекистан.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Набор из 7 специй для курицы
+							<br>
+							Узбекистан</a>
+						</h1>
+						<h2>1.90 руб./50г<span class="property_size"</span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/тмин-черный-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Тмин черный (Калинджи)
+							<br>
+							Индия</a>
+						</h1>
+						<h2>2.30 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/тимьян-египет.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Тимьян
+							<br>
+							Египет</a>
+						</h1>
+						<h2>2.00 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/набор-для-супа-узбекия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Набор из 7 специй для супа
+							<br>
+							Узбекистан</a>
+						</h1>
+						<h2>1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/кориандр-семя-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Кориандр семя (кинза)
+							<br>
+							Индия</a>
+						</h1>
+						<h2>2  0.95 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/набор-для-плова-узбекия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							 Набор из 7 специй для плова
+							<br>
+							Узбекистан</a>
+						</h1>
+						<h2>2.10 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/шамбала-семя.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Шамбала (пажитник сенной) семя
+							<br>
+							Индия</a>
+						</h1>
+						<h2>1.40 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/набор-для-баранины-узбекия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Набор из 8 специй для баранины
+							<br>
+							Узбекистан</a>
+						</h1>
+						<h2> 1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/тмин-семена-финляндия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Тмин семена
+							<br>
+							Финляндия</a>
+						</h1>
+						<h2>1.60 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/сумах-турция.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Сумах
+							<br>
+							Турция</a>
+						</h1>
+						<h2> 2.30 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/шафран-испания.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Шафран имеретинский
+							<br>
+							Испания</a>
+						</h1>
+						<h2>3.15 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/мускат-индонезия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Мускатный орех
+							<br>
+							Индонезия</a>
+						</h1>
+						<h2> 2.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/перец-зеленый-горошек-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Перец зеленый горошек
+							<br>
+							Индия</a>
+						</h1>
+						<h2> 3.15 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/мята-сушеная-россия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Перец зеленый горошек
+							<br>
+							Индия</a>
+						</h1>
+						<h2>1.80 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/смесь-перцев-горошек-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Смесь перцев горошек
+							<br>
+							Индия</a>
+						</h1>
+						<h2>6.50 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/Набор-из-8-специй-для-мяса-Узбекистан.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Набор из 8 специй для мяса
+							<br>
+							Узбекистан</a>
+						</h1>
+						<h2>1.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/лук-репчатый-сушеный-китай.jpg"  alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Лук репчатый сушеный (гранулы 3*3)
+							<br>
+							Китай</a>
+						</h1>
+						<h2>  1.75 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/зира-кумин-молотая-индия.jpg"  alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Зира (кумин) семя
+							<br>
+							Индия</a>
+						</h1>
+						<h2>   2.20 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/кардамон-зеленый-гватемала.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Кардамон зеленый (зерно)
+							<br>
+							Гватемала</a>
+						</h1>
+						<h2>6.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/бадьян-целый-вьетнам.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Бадьян целый
+							<br>
+							Вьетнам</a>
+						</h1>
+						<h2>6.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/паприка-зеленая-хлопья.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Паприка зеленая хлопья
+							<br>
+							Вьетнам</a>
+						</h1>
+						<h2>3.05руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/кунжут-белый-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Кунжут белый
+							<br>
+							Индия</a>
+						</h1>
+						<h2> 0.90 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/куркума-корень-индия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Куркума корень
+							<br>
+							Индия</a>
+						</h1>
+						<h2>3.15руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/хмели-сунели-россия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Хмели - сунели
+							<br>
+							Росси</a>
+						</h1>
+						<h2> 1.80  руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/барбарис-черный-россия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#"> Барбарис черный
+							<br>
+							Россия</a>
+						</h1>
+						<h2>3.15 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/куркума-молотая-китай.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Куркума молотая
+							<br>
+							Китай</a>
+						</h1>
+						<h2>1.80 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="img/семена-чиа-боливия.jpg" alt="" title="" class="property_img"/>
+					</a>
+
+					<div class="property_details">
+						<h1>
+							<a href="#">Семена чиа
+							<br>
+							Боливия</a>
+						</h1>
+						<h2> 2.35 руб./50г<span class="property_size"></span></h2>
+					</div>
+				</li>
+
+			</ul>
+			<!-- <div class="more_listing">
+				<a href="#" class="more_listing_btn">View More Listings</a>
+			</div> -->
+		</div>
+	</section>	<!--  end listing section  -->
+
+	<footer>
+		<div class="wrapper footer">
+			<ul>
+				<li class="about">
+				<p id="1234">Продажа специй.<br>
+				Торговая точка на Полоцком рынке: роллет №37с.<br>
+				Рыночный комплекс "Скарб". Отдел сельхозпродукции.  <br>Адрес: улица Франциска Скорины 37, Полоцк. <br>Часы работы: 9:00 - 14:30 <br>
+				Tel: +375(29) 211 53 80.
+				</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="copyrights wrapper">
+			Copyright © 2022. All Rights Reserved.
+		</div>
+	</footer><!--  end footer  -->
+
+</body>
+</html>
